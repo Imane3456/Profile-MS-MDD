@@ -1,12 +1,11 @@
 body {
   background: linear-gradient(to right, #ffecd2, #fcb69f); 
-}
 
 .card {
   background: linear-gradient(to right, #ffffff, #f0f0f0); 
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #f0f0f0; 
+  border: 1px solid #f0f0f0; /* Light Gray */
   width: 50%;
   margin: 20px auto;
   text-align: center;
@@ -26,19 +25,19 @@ body {
   height: 100%;
   background: linear-gradient(45deg, rgba(255,255,255,0.3), rgba(255,255,255,0));
   pointer-events: none; 
-  z-index: 1; /
+  z-index: 1; 
 }
 
 .card a img {
   width: 30px;
   height: auto;
   border: 2px solid #ffffff; 
-  border-radius: 50%; /
+  border-radius: 50%; 
   transition: opacity 0.3s ease; 
 }
 
 .card:hover {
-  transform: rotate(1deg);
+  transform: rotate(1deg); 
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
@@ -47,8 +46,8 @@ body {
   width: 120px; 
   height: 130px; 
   border-radius: 50%; 
-  border: 2px solid #f0f0f0;
-  transition: opacity 0.3s ease;
+  border: 2px solid #f0f0f0; 
+  transition: opacity 0.3s ease; 
 
   .card {
     text-align: center;
